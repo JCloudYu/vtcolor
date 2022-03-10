@@ -1,0 +1,17 @@
+{
+	"name": "vtcolor",
+	"version": "0.9.1",
+	"description": "An ANSI/VT100 color code library",
+	"main": "./_dist/index.js",
+	"scripts": {
+		"prebuild": "rm -rf ./_dist",
+		"build": "tsc"
+	},
+	"keywords": [
+		"ANSI/VT100",
+		"TerminalColors",
+		"Colors"
+	],
+	"author": "JCloudYu",
+	"license": "ISC"
+}
